@@ -1,0 +1,292 @@
+﻿
+body {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+.navbar-inverse {
+    background-color: #e2f3dd;
+    border-color: #e2f3dd;
+}
+    .navbar-inverse .navbar-nav > li > a {
+        color: #000;
+    }
+
+        .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+            color: #219200;
+            background-color: transparent;
+        }
+
+.logo{
+    width:60px;
+    height:30px;
+}
+
+.navBg {
+    background-color: #e2f3dd;
+}
+
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-top: 5%;
+    text-align: left;
+    padding: 5% 10% 0 10%;
+}
+.titleimage {
+    width: 70%;
+    margin-top: 10%;
+}
+
+.shopnowbtn{
+    margin-right:60%;
+}
+
+.jumbotronBg {
+    background-image: url('Images/banner9.jpg');
+    height:25rem;
+}
+.jumbotronc {
+   text-align:center;
+}
+.flex-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.textWhite{
+    color:#ffffff !important;
+    text-align:center;
+}
+
+.gallaryimg{
+    height: 300px;
+    width: 450px
+}
+
+
+.list-group-item {
+    border:none;
+    
+}
+
+.list-title {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #82ae46;
+}
+
+.sitemapcont{
+     text-align:left;
+}
+.subcription {
+   
+    margin: auto;
+    text-align: center;
+}
+.subcriptionbutton {
+    background-color: #82ae46;
+    border:none;
+}
+    .bestseller {
+        font-size: 20px;
+        text-align: left;
+    }
+.bestsellerprice {
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #82ae46;
+}
+.bestsellerimg {
+    width:25rem; 
+    height:21rem;
+
+}
+.border{
+    border:1px solid #808080;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color:#219200;
+  }
+.organicimg {
+    height: auto;
+    border-radius: 50%;
+    width: 21.875rem;
+}
+.organicidiv {
+   
+    text-align:center;
+}
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transition: transform 1.10s;
+    transform: scale(1.1);
+}
+
+.icons {
+    font-size: 1rem;  
+    color: #82ae46;
+}
+.iconsL {
+    font-size: 2rem;
+    color: #82ae46;
+   }
+
+@media only screen and (max-width: 990px) and (min-width: 400px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .sitemapcont {
+        text-align: center;
+    }
+
+    .displaysubmenu {
+        display: none;
+    }
+}
+
+
+
+
+
+.accordion {
+    margin: 0;
+    padding: 0;      
+    width: 15em;
+}
+
+    .accordion h3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .accordion:focus-within {
+        border-color: hsl(216deg 94% 43%);
+    }
+
+        .accordion:focus-within h3 {
+            background-color: hsl(0deg 0% 97%);
+        }
+
+    .accordion > * + * {
+        border-top: 1px solid hsl(0deg 0% 52%);
+    }
+
+.accordion-trigger {
+    background: none;
+    color: hsl(0deg 0% 13%);
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 1em 1.5em;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    outline: none;
+}
+
+    .accordion-trigger:focus,
+    .accordion-trigger:hover {
+        background: hsl(216deg 94% 94%);
+    }
+
+    .accordion-trigger:focus {
+        outline: 4px solid transparent;
+    }
+
+.accordion > *:first-child .accordion-trigger,
+.accordion > *:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.accordion > *:last-child .accordion-trigger,
+.accordion > *:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+button {
+    border-style: none;
+}
+
+.accordion button::-moz-focus-inner {
+    border: 0;
+}
+
+.accordion-title {
+    display: block;
+    pointer-events: none;
+    border: transparent 2px solid;
+    border-radius: 5px;
+    padding: 0.25em;
+    outline: none;
+}
+
+.accordion-trigger:focus .accordion-title {
+    border-color: hsl(216deg 94% 43%);
+}
+
+.accordion-icon {
+    border: solid currentcolor;
+    border-width: 0 2px 2px 0;
+    height: 0.5rem;
+    pointer-events: none;
+    position: absolute;
+    right: 2em;
+    top: 50%;
+    transform: translateY(-60%) rotate(45deg);
+    width: 0.5rem;
+}
+
+.accordion-trigger:focus .accordion-icon,
+.accordion-trigger:hover .accordion-icon {
+    border-color: hsl(216deg 94% 43%);
+}
+
+.accordion-trigger[aria-expanded="true"] .accordion-icon {
+    transform: translateY(-50%) rotate(-135deg);
+}
+
+.accordion-panel {
+    margin: 0;
+    padding: 1em 1.5em;
+}
+
+    /* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/4806035/ */
+    .accordion-panel[hidden] {
+        display: none;
+    }
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: 1px solid hsl(0deg 0% 42%);
+    border-radius: 0.3em;
+    display: block;
+    font-size: inherit;
+    padding: 0.3em 0.5em;
+}
+
+.displaysubmenu{
+    display:block;
+}

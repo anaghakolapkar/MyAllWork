@@ -1,0 +1,256 @@
+body {
+    font-family: 'Montserrat-black', sans-serif;
+   
+     }
+#title {
+    /* background-color: #b81c4c;*/
+    background-image: linear-gradient(to bottom, #b81c4c,#fe86b3);
+    color: #fff;
+    padding: 3% 0 3% 0;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;   
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+   }
+
+h3 {
+    color: #b81c4c;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 2%;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 1;
+    padding: 3% 0 3% 0;
+    text-align: center;
+    margin: 0;
+   }
+h4 {
+    position: relative;
+    left: 40%;
+  
+}
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat-black', sans-serif;
+
+}
+.container-fluid {
+    padding: 0 8%;
+}
+
+/*navigation*/
+.navbar {
+    padding:  0 0 4.5rem;    
+}
+.navbar-custom {
+  
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat'sans-serif;
+    color: #fff;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.navbar-brand:hover {
+        color: #fe86b3;
+    }
+
+.nav-link:hover {
+    color: #fe86b3;
+}
+.navbar-toggler-icon {
+    background-image: url('G:\Anagha\UI\ResponsiveWebsiteDemo\ResponsiveWebsiteDemo\ResponsiveWebsiteDemo\cakeimg\navtoggerimg.svg')
+}
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+    
+}
+
+/*download button*/
+.downloadbutton {
+    margin-top: 3%;
+}
+
+.shopbycake {
+    position:relative;
+    left:80%;
+    margin-bottom: 3%;
+   
+  }
+/*titile image*/
+.titleimage {
+   width: 80%;
+   margin-left:10%;
+ }
+
+
+/*templet images*/
+.templetimgcentre {
+    text-align: center;
+}
+
+.templetimgleftaling {
+    text-align: left;
+}
+.templetimgrighttaling {
+    text-align: right;
+}
+.templetimg {    
+    margin-bottom:0;
+    width: 75%;
+}
+@media only screen and (max-width: 990px) and (min-width: 400px) {
+    .templetimgleftaling {
+        text-align: center;
+    }
+
+    .templetimgrighttaling {
+        text-align: center;
+    }
+    .mobileimg{
+        display:none;
+    }
+}
+/*pricing*/
+.marginzero{
+    margin: 0;
+}
+.card-img-top {
+    padding: 10% 10%;
+    width: 75%;
+    height: 73%;
+    background-color: #fe86b3;
+    border-radius: 50%;
+}
+
+.card-img-top1 {
+    padding: 10% 10%;
+    width: 75%;
+    height: 73%;
+    background-color: #825947;
+    border-radius: 50%;
+}
+
+
+.container-blue {
+    background-color: #c7f3f4;
+    margin: 3% 0 3% 0;
+}
+/* Newsletter*/
+.container-pink {
+    background-color: #b81c4c;
+    padding: 3% 8%;
+}
+.container-pink h3{
+    color:#fff;   
+}
+    .container-pink p {
+        text-align: left;
+        color: #fff;
+    }
+
+.newscake{
+    width:40%;    
+}
+.btnsubscribe{
+margin:0 3%;
+}
+
+/*features*/
+#features {
+    margin: 5% 15%;
+    text-align: center;
+}
+
+.featuresfont {
+    color: #8f8f8f;
+}
+
+.iconcolor {
+    color: #b81c4c;
+    font-size:2.5rem;
+    margin-bottom: 1rem;
+    
+}
+ .iconcolor:hover {
+        color: #fe86b3;
+           }
+
+
+ /*testimonials*/
+#testimonials {
+    text-align: center;
+    background-color: #fe86b3;
+    color: #fff;
+   }
+
+.carousel-item {
+    padding: 0 15%;
+}
+.btn-outline-dark{
+    margin:1% 5%;
+}
+.btn-outline-dark:hover {
+    background-color: #fe86b3;
+}
+
+ .cake-plan {
+              text-align: center;
+            }
+
+
+.card
+{
+    margin:10% auto 10% auto;
+}
+/*delivery*/
+.mobileimg {
+    transform: rotate(-20deg);
+    width: 8%;   
+    position: absolute;
+    left: 400px;
+
+    z-index: -1;
+}
+.order {
+    padding: 2% 10%;
+}
+.deliveryimg {
+    width: 50%;
+    }
+
+/*footer*/
+#footer {
+    padding: 1% 15%;
+    text-align: center;
+    background-color: #c7f3f4;
+    }
+.socialicons {
+    margin: 1%;
+    color: #2d9ea1;
+    font-size: 1.5rem;
+}
+#footer p {
+    font-size: 1rem;
+    font-family: 'Montserrat-black', sans-serif;
+    color: #2d9ea1;
+}
