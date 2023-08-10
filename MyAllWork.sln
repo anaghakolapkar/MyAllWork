@@ -24,6 +24,26 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "cake(1)", "cake\", "{6E8992
 		SlnRelativePath = "cake\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Travel", "Travel\", "{67D3202A-04B8-41B4-A71C-6843B7BF0BBC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59613"
+		Debug.AspNetCompiler.PhysicalPath = "Travel\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59613\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59613"
+		Release.AspNetCompiler.PhysicalPath = "Travel\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59613\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59613"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +51,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6E899237-7554-447E-8D86-F4196B936BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E899237-7554-447E-8D86-F4196B936BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D3202A-04B8-41B4-A71C-6843B7BF0BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D3202A-04B8-41B4-A71C-6843B7BF0BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
