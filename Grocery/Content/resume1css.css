@@ -1,0 +1,258 @@
+﻿body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+   
+}
+.nav-link{
+    color:#000000;
+}
+.bannerimg {
+    text-align: right;
+   width:80%;
+}
+.bg1 {
+    background-image: url('/resumeimg/banner2.png');
+    background-size: auto 130%;
+    background-repeat: no-repeat;
+}
+.margintop{
+    margin-top:5rem;
+}
+.marginbottem{
+    margin-bottom:8rem;
+}
+h1 {
+    font-size: 5rem;
+    margin-top: 25px auto 0 auto;
+    font-family: 'Arvo', serif;
+    color: #2d3038;
+}
+h2{
+    font-weight:bold;
+}
+
+h3 {
+    font-size: 4.5rem;
+    font-family: Sacramento;
+    color: #2d3038;
+    font-weight: bold;
+    margin: 10px auto 10px auto;
+}
+h5 {
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+p {
+    color: #40514E;
+    line-height: 2;
+    text-align:left;
+}
+span {
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.leftalign{
+    text-align:left;
+}
+.greentext {
+    color: #00505f;
+}
+.creambg {
+    background-color: #fffcf7;
+}
+
+
+.container4 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: #fff;
+    padding: 2px;
+    border: gray solid 0.2rem;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-itemorange {
+    background-color: #f26522;
+    color:#fff;
+   
+}
+
+.grid-itemgreen {
+    background-color: #6e9e24;
+    color: #fff;
+}
+
+.grid-itemblue {
+    background-color: #2f5f85;
+    color: #fff;
+}
+.grid-itempink {
+    background-color: #e75697;
+    color: #fff;
+}
+.grid-itemaquwa {
+    background-color: #4cd2d3;
+    color: #fff;
+}
+
+
+
+.cvicons {
+    width: 10%;
+    margin: 1.5rem;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+/*nav bar*/
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    background-color: #2d3038;   
+    position: fixed;
+    z-index: 1;
+}
+.yellowdiv {
+    background-color: #f4bf00;
+    border:none;
+}
+.greendiv {
+    background-color: #3c861b;
+    border: none;
+}
+.orangediv {
+    background-color: #f26522;
+    border: none;
+}
+.reddiv {
+    background-color: #e10337;
+    border: none;
+}
+.pinkdiv {
+    background-color: #b90162;
+    border: none;
+}
+.purpulediv {
+    background-color: #3c70b4;
+    border: none;
+}
+
+.flex-container > div,a {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+    a:hover {
+        color: #fff;
+    }
+
+
+.containerphoto {
+    position: relative;
+    width: 100%;
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 3px gray;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.containerphoto:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.conacticon {
+    width: 7%;
+    margin: 1.5rem; 
+    }
+
+.conactext {
+    font-size: 2rem;
+    margin-top: 0px auto 0 auto;
+    color: #2d3038;
+    font-weight: bolder;   
+}
+.conactext1 {
+    font-size: 1.5rem;
+    color: #666666;
+}
+
+/*conact me*/
+
+.grid-containerconact {
+    display: grid;
+    grid-template-columns: 200px 290px 215px ;   
+    background-color: #fff;   
+}
+
+    .grid-containerconact > div {
+        background-color: #fff;
+        text-align: left;      
+     padding:0;
+    }
+
+.imgconact {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.headerconact {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.deatilconact {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.conacticon1 {
+    width: 60%;
+  }

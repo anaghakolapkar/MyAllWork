@@ -1,0 +1,88 @@
+﻿body, html {
+    height: 100%;
+}
+.customcontainer {
+  margin: 1% 5% 5% 1%;
+}
+#banner {
+  
+}
+.cardtravel {
+  margin: 1% 5%;
+}
+.cardimg {
+    height: 9.37rem;
+}
+.cardimg:hover {
+}
+.imginternational {
+    padding: 10px;
+    background-color: #eee0d2;
+}
+.imgindian {
+    border-radius: 50px;
+    width: 12.5em;
+}
+
+.container-white {
+    background-color: #fff;
+   
+}
+
+
+#whereto {
+    width: 21em;
+}
+
+#whento {
+    width: 15em;
+}
+.btnsearch {
+    margin: 0 3%;
+    width: 12.5em;
+}
+
+.jungalimg{
+   width:60%;
+}
+
+.displayinline{
+    display:inline-block;
+}
+
+.templetimgleftaling {
+    text-align: center;
+}
+
+.templetimgrighttaling {
+    text-align: right;
+}
+
+/*parallax*/
+.parallaxtext {
+    height: 580px;   
+    background: rgba(190, 221, 213, 0.6);
+    font-size: 36px;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('../travelimg/parallax1.jpg');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url('../travelimg/parallax2.jpg');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

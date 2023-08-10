@@ -1,0 +1,151 @@
+﻿
+.position1 {
+    height: 500px;
+    width: 1200px;
+    background-color: gray;
+    position: relative;
+    margin:auto;
+}
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+}
+
+.blue {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:absolute;
+    left:1100px;
+    top:0;
+}
+
+.green {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+   top:400px;
+  
+}
+
+.yellow {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+}
+
+.purple {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+}
+
+.position2 {
+    height: 100px;
+    width: 1200px;
+    background-color:antiquewhite;
+    position: relative;
+    text-align:center;
+    }
+.red2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+}
+
+.blue2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.green2 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+.yellow2 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
+
+.purple2 {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: absolute;
+    text-align: center;
+    left: 400px;
+    top: 0;
+}
+
+
+.position3 {
+    height: 100px;
+    width: 1200px;
+    background-color: gray;
+    position: relative;
+    text-align: center;
+}
+
+.red3 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    right:0;
+}
+
+.blue3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 100px;
+}
+
+.green3 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    right: 200px;
+}
+
+.yellow3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    right: 300px;
+}
+
+.purple3 {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: absolute;
+    text-align: center;
+    right: 400px;
+}
