@@ -63,6 +63,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Grocery", "Grocery\", "{F08
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "59663"
+		SlnRelativePath = "Grocery\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Resume", "Resume\", "{7DE5271C-9DA1-4436-8B02-C998343679BC}"
@@ -83,6 +84,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Resume", "Resume\", "{7DE52
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "59733"
+		SlnRelativePath = "Resume\"
 	EndProjectSection
 EndProject
 Global
