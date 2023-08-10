@@ -42,6 +42,47 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Travel", "Travel\", "{67D32
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "59613"
+		SlnRelativePath = "Travel\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Grocery", "Grocery\", "{F085E34C-0E5B-4034-989E-11E9CADDDAED}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59663"
+		Debug.AspNetCompiler.PhysicalPath = "Grocery\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59663\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59663"
+		Release.AspNetCompiler.PhysicalPath = "Grocery\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59663\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59663"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Resume", "Resume\", "{7DE5271C-9DA1-4436-8B02-C998343679BC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59733"
+		Debug.AspNetCompiler.PhysicalPath = "Resume\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59733\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59733"
+		Release.AspNetCompiler.PhysicalPath = "Resume\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59733\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59733"
 	EndProjectSection
 EndProject
 Global
@@ -53,6 +94,10 @@ Global
 		{6E899237-7554-447E-8D86-F4196B936BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D3202A-04B8-41B4-A71C-6843B7BF0BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67D3202A-04B8-41B4-A71C-6843B7BF0BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F085E34C-0E5B-4034-989E-11E9CADDDAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F085E34C-0E5B-4034-989E-11E9CADDDAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE5271C-9DA1-4436-8B02-C998343679BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE5271C-9DA1-4436-8B02-C998343679BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
